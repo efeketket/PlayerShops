@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_",
+        "O"
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:chest"
+        },
+        "O": {
+            "item": "minecraft:emerald"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    },
+    "group": "shopcase"
+}

@@ -1,0 +1,30 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:arrow",
+            "functions": [
+              {
+                "function": "set_name",
+                "name": {
+                  "text": "Return to main page",
+                  "color": "light_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                "entity": "this"
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{ketket_shop:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

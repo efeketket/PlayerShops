@@ -1,0 +1,14 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "chair1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "ketket_shops:shopcase_craft"
+            }
+        }
+    },
+    "rewards": {
+        "function": "ketket_shops:giveitem"
+    }
+}
