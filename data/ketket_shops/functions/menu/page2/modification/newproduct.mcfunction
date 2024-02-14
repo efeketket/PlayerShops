@@ -1,3 +1,5 @@
+execute if score @s currentstock >= @s product_count run tag @s remove empty
+
 execute if data block ~ ~ ~ Items[{Slot:2b}] run data modify entity @e[type=item_display,sort=nearest,limit=1,tag=shopdata] item.tag.Product set from block ~ ~ ~ Items[{Slot:2b}]
 execute if data block ~ ~ ~ Items[{Slot:3b}] run data modify entity @e[type=item_display,sort=nearest,limit=1,tag=shopdata] item.tag.Product set from block ~ ~ ~ Items[{Slot:3b}]
 execute if data block ~ ~ ~ Items[{Slot:4b}] run data modify entity @e[type=item_display,sort=nearest,limit=1,tag=shopdata] item.tag.Product set from block ~ ~ ~ Items[{Slot:4b}]

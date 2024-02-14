@@ -3,6 +3,7 @@ execute unless score @s unique_shopid = @s unique_shopid run scoreboard players 
 
 scoreboard players operation @e[tag=playershop,tag=main,type=interaction,sort=nearest,limit=1,distance=..0.5] unique_shopid = @s unique_shopid
 tag @e[tag=playershop,tag=main,type=interaction,sort=nearest,limit=1,distance=..0.5] remove noowner
+advancement grant @s only ketket_shops:sp_adv_3
 tellraw @s ["","[",{"text":"Player Shop","color":"green"},"] ","Shop successfully claimed."]
 
 data remove entity @e[tag=playershop,tag=main,type=interaction,sort=nearest,limit=1,distance=..0.5] interaction

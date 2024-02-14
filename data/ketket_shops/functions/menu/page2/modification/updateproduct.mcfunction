@@ -88,8 +88,6 @@ execute if data block ~ ~ ~ Items[{Slot:22b}] if score @s boolean_shop matches 0
 execute if score @s boolean_shop matches 0 run execute unless data entity @e[type=item_display,sort=nearest,limit=1,tag=shopdata] item.tag.Product[{}] run function ketket_shops:menu/page2/modification/overwriteproduct
 execute if score @s boolean_shop matches 0 run execute if data entity @e[type=item_display,sort=nearest,limit=1,tag=shopdata] item.tag.Product[{}] run function ketket_shops:menu/page2/modification/newproduct
 
-
-
 data modify storage productfaceholder Product set value [{}]
 data modify storage productfaceholder Producttag set value [{}]
 

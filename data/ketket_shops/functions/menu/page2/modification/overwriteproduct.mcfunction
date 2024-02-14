@@ -52,7 +52,8 @@ data remove block ~ ~ ~ Items[{Slot:13b}]
 data remove block ~ ~ ~ Items[{Slot:20b}]
 data remove block ~ ~ ~ Items[{Slot:21b}]
 data remove block ~ ~ ~ Items[{Slot:22b}]
-data modify entity @e[type=text_display,limit=1,tag=displaytext,sort=nearest] text set value '{"bold":true,"color":"red","text":""}'
+
+execute if score @s currentstock >= @s product_count run tag @s remove empty
 
 function ketket_shops:menu/page2/modification/end
 

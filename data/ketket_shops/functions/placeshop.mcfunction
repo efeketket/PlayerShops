@@ -1,0 +1,2 @@
+function ketket_shops:detection
+execute unless data entity @s SelectedItem{id:"minecraft:player_head",tag:{SkullOwner:{Id:[I;1431137794,275073127,-2022788867,-1955600531],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRjMzZjOWNiNTBhNTI3YWE1NTYwN2EwZGY3MTg1YWQyMGFhYmFhOTAzZThkOWFiZmM3ODI2MDcwNTU0MGRlZiJ9fX0="}]}}}} run tag @s remove placeshop
