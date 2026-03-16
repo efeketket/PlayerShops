@@ -1,0 +1,1 @@
+tellraw @s ["","[",{"text":"Player Shop","color":"green"},"]",{"text":" Display Name : ","color":"gold"},{"nbt":"item.components.'minecraft:custom_data'.Product.tag.display.Name","entity":"@e[type=item_display,sort=nearest,limit=1,tag=shopdata]"}]

@@ -1,0 +1,1 @@
+$execute as @p[nbt={UUID:$(Owner)}] run tp @e[type=item,tag=storageempty] @s

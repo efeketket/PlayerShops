@@ -1,0 +1,51 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:yellow_dye",
+            "functions": [
+              {
+                "function": "set_name",
+                "name": {
+                  "text": "Product: ",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "extra": [
+                      {
+                        "score": {
+                          "name": "@s",
+                          "objective": "product_count"
+                        },
+                        "color": "yellow",
+                        "bold": true
+                      }
+                  ]
+                },
+                "entity": "this"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "Your current product.",
+                    "color": "yellow",
+                    "italic": false
+                  }
+                ],
+                "mode": "append"
+              },
+              {
+                "function": "set_custom_data",
+                "tag": "{ketket_shop:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

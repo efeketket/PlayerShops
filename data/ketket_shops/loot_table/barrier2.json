@@ -1,0 +1,42 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:nether_star",
+            "functions": [
+              {
+                "function": "set_name",
+                "name": {
+                  "text": "Admin Shop",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                "entity": "this"
+              },
+
+              {
+                "function": "set_custom_data",
+                "tag": "{ketket_shop:1b}"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                    {
+                        "text": "This shop has an infinite stock of items.",
+                        "color": "white",
+                        "italic": false
+                    }
+                ],
+                "mode": "append"
+            }
+            ]
+          }
+        ]
+      }
+    ]
+  }

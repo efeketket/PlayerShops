@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:player_head",
+          "function": "set_components",
+          "components": {
+              "minecraft:profile": {
+                  "id": [
+                    1431137794,275073127,-2022788867,-1955600531
+                  ],
+                  "properties": [
+                      {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRjMzZjOWNiNTBhNTI3YWE1NTYwN2EwZGY3MTg1YWQyMGFhYmFhOTAzZThkOWFiZmM3ODI2MDcwNTU0MGRlZiJ9fX0="
+                      }
+                  ]
+              }
+            }
+
+      },
+      "title": "Player Shops",
+      "description": "Advancements of the Player Shops",
+      "background": "minecraft:textures/block/birch_planks.png",
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "ketkets:main",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location"
+      }
+    }
+  }

@@ -1,0 +1,30 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:tripwire_hook",
+            "functions": [
+              {
+                "function": "set_name",
+                "name": {
+                  "score": {
+                    "name": "@s",
+                    "objective": "unique_shopid"
+                  }
+                },
+                "entity": "this"
+              },
+              {
+                "function": "set_custom_data",
+                "tag": "{Unbreakable:1b, ketket:1b, key:1,Enchantments:[{}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,27 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:gray_stained_glass_pane",
+            "functions": [
+              {
+                "function": "set_name",
+                "name": {
+                  "text": ""
+                },
+                "entity": "this"
+              },
+              {
+                "function": "set_custom_data",
+                "tag": "{ketket_shop:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,41 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:brush",
+            "functions": [
+              {
+                "function": "set_name",
+                "name": {
+                  "text": "Shop Reset",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                "entity": "this"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "Shift Click to reset shop settings.",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "mode": "append"
+              },
+              {
+                "function": "set_custom_data",
+                "tag": "{ketket_shop:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

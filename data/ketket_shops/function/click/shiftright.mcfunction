@@ -1,0 +1,3 @@
+execute as @e[type=interaction,sort=nearest,limit=1,tag=platechanger,nbt={interaction:{}}] on target if data entity @s SelectedItem if score @s Sneaking_ps matches 1 run function ketket_shops:display/platechanger
+execute as @e[type=interaction,sort=nearest,limit=1,tag=platechanger,nbt={interaction: {}}] on target unless data entity @s SelectedItem if score @s Sneaking_ps matches 1 run function ketket_shops:display/woolchanger
+execute as @e[type=interaction,sort=nearest,limit=1,tag=main,nbt={interaction:{}}] on target unless data entity @s SelectedItem if score @s Sneaking_ps matches 1 run function ketket_shops:display/glasschanger

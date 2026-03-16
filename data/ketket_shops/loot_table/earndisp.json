@@ -1,0 +1,52 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:yellow_dye",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Total Earn: ",
+                "color": "gold",
+                "bold": false,
+                "italic": false,
+                "extra": [
+                  {
+                    "score": {
+                      "name": "@s",
+                      "objective": "totalearn"
+                    },
+                    "color": "yellow",
+                    "bold": true
+                  }
+                ]
+              },
+              "entity": "this"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{ketket_shop:1b}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Shift + Click to collect.",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ],
+              "entity": "this",
+                "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

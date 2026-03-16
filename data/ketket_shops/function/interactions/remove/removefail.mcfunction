@@ -1,0 +1,1 @@
+tellraw @s ["","[",{"text":"Player Shop","color":"green"},"]",{"text":" You can't break it. There are incoming profits or stocked items.","color":"red"}]

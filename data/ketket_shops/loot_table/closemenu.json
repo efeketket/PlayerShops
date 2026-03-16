@@ -1,0 +1,30 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:red_dye",
+            "functions": [
+              {
+                "function": "set_name",
+                "name": {
+                  "text": "Close Menu",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                "entity": "this"
+              },
+              {
+                "function": "set_custom_data",
+                "tag": "{ketket_shop:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

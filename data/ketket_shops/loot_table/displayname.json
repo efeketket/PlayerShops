@@ -1,0 +1,56 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:writable_book",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Display Name",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "entity": "this"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Write the text you want and replace it here.",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "The text will be displayed on top of the price.",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "You can customize the text with minecraft text format.",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "This feature disabled for now.",
+                  "color": "red",
+                  "italic": false
+                }
+              ],
+                "mode": "append"
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{ketket_shop:1b, pages:[\"{\\\"text\\\":\\\" \\\", \\\"bold\\\":true}\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
