@@ -1,0 +1,15 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    uses: Ketket-s-Datapacks/.github/.github/workflows/datapack-release-reusable.yml@main
+    secrets:
+      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
